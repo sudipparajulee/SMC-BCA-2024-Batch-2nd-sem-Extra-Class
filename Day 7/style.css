@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    background-color: red;
+    padding: 5px;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    background-color: rgb(202, 4, 4);
+}

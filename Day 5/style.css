@@ -1,0 +1,22 @@
+.myheading{
+    background-color: yellow;
+    color: blue;
+}
+
+#myheading{
+    background-color: red;
+    color: white;
+}
+
+h3{
+    background-color: green;
+    color: white;
+}
+
+.middle{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
