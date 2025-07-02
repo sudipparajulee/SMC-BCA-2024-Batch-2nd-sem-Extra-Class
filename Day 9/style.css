@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.course-section{
+    padding: 20px;;
+}
+
+.course-section > h1{
+    text-align: center;
+}
+
+.course-container{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.course{
+    text-align: center;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    box-shadow: 1px 2px 8px rgb(119, 119, 119);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.course:hover{
+    box-shadow: 1px 2px 8px rgb(59, 59, 59);
+    transform: scale(1.02);
+}
