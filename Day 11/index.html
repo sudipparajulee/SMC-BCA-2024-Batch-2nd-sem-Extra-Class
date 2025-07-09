@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>My title</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .notice-container{
+                display: flex;
+                align-items: center;
+                background-color: gray;
+            }
+
+            .notice-container p{
+                background-color: red;
+                color: white;
+                padding: 10px;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Heading</th>
+                <th>Students</th>
+                <th colspan="3">Details</th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Roll Number</th>
+            </tr>
+            <tr>
+                <td rowspan="4">Student List</td>
+                <td>1</td>
+                <td>Victor</td>
+                <td>Computer Science</td>
+                <td>12345</td>
+            </tr>
+        </table>
+
+        <div class="notice-container">
+            <p>Notice</p>
+            <marquee scrollamount="15" behavior="scroll" direction="left">Today is Holiday</marquee>
+        </div>
+    </body>
+</html>
