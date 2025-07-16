@@ -47,8 +47,17 @@ body{
 }
 
 .course{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(146, 146, 146);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.course:hover{
+    /* transform: scale(1.03); */
+    transform: translateY(-5px);
+    /* transform: rotate(15deg); */
+    box-shadow: 1px 3px 8px gray;
 }
