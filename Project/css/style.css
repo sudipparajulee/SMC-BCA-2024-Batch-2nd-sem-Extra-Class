@@ -24,17 +24,17 @@ body{
     text-decoration: none;
 }
 
-.course-section, .about-section{
+.course-section, .about-section, .product-section{
     padding: 20px 50px;
 }
 
-.course-section > h2, .about-section > h2{
+.course-section > h2, .about-section > h2, .product-section > h2{
     color: rgb(43, 43, 114);
     text-align: center;
     margin-bottom: 5px;
 }
 
-.course-section > p, .about-section > p{
+.course-section > p, .about-section > p, .product-section > p{
     text-align: center;
     color: rgb(111, 111, 111);
     margin-top: 0;
@@ -70,8 +70,35 @@ body{
 
 .about-container img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .about-text p{
     text-align: justify;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product{
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 238);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.product img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product:hover{
+    transform: translateY(-5px);
 }
