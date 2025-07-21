@@ -102,3 +102,38 @@ body{
 .product:hover{
     transform: translateY(-5px);
 }
+
+.footer{
+    background-color: rgb(41, 41, 119);
+    color: white;
+    padding: 20px 50px;
+}
+
+.upper-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.footer-div ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-div li{
+    margin: 5px 0;
+}
+
+.footer-div a {
+    color: white;
+    text-decoration: none;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-footer a{
+    color: white;;
+}
