@@ -156,3 +156,18 @@ body{
 .lower-footer a{
     color: white;;
 }
+
+.discount{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.product{
+    position: relative;
+}
