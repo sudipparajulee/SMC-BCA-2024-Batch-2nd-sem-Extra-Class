@@ -171,3 +171,17 @@ body{
 .product{
     position: relative;
 }
+
+@media screen and (max-width: 768px) {
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+
+    .course-container{
+        grid-template-columns: 1fr;
+    }
+
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+}
