@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <h1 id="myheading">Javascript</h1>
+        <button id="showhide" onclick="showHideMenu()">Hide</button>
+        <div id="menu">
+            THIS IS EXAMPLE MENU
+        </div>
+        <script>
+            document.write('<h2>Hello</h2>');
+            // alert('This is an alert');
+            // let name = prompt('Who are you?');
+            // document.write('Welcome, '+name);
+            // let decision = confirm('Are you sure?');
+            // document.write('Your answer is ' + decision);
+
+            let a = 2;
+            let b = 3;
+            let c = a+b;
+            document.write('The sum is '+c);
+
+            let fname = 'SMC';
+            let lname = 'BCA';
+            let fullname = fname + ' ' + lname;
+            document.getElementById('myheading').innerHTML = '<h3>Your name is ' + fullname + '</h3>';
+            document.getElementById('myheading').style.color = 'blue';
+            document.getElementById('myheading').style.backgroundColor = 'yellow';
+            document.getElementById('myheading').addEventListener('click', function(){
+                let colors = ['red','green','blue','pink','orange'];
+                document.getElementById('myheading').style.color = colors[Math.floor(Math.random() * colors.length)];
+            });
+
+            function showHideMenu()
+            {
+                let ourmenu = document.getElementById('menu');
+                let mybutton = document.getElementById('showhide');
+                if(ourmenu.style.display != 'none')
+                {
+                    ourmenu.style.display = 'none';
+                    mybutton.innerHTML = 'Show';
+                }
+                else
+                {
+                    ourmenu.style.display = 'block';
+                    mybutton.innerHTML = 'Hide';
+                }
+            }
+        </script>
+    </body>
+</html>
